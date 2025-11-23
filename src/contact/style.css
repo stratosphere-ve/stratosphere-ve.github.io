@@ -1,0 +1,56 @@
+html{
+    scroll-behavior:smooth
+}
+html,body{
+    height:100%
+}
+body{
+    margin:0;
+    background-color:#000;
+    color:#fff;
+    font-family:Poppins,sans-serif
+}
+.topnav{
+    background-color:#5b21b6;
+    overflow:hidden;
+    font-family:Poppins,sans-serif
+}
+.topnav a{
+    float:center;
+    color:#fff;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px
+}
+.topnav a:hover{
+    background-color:#fff;
+    color:#000
+}
+.poppins-regular{
+    font-family:Poppins,sans-serif;
+    font-weight:400;
+    font-style:normal
+}
+.thisisstratosphere{
+    float:center;
+    text-align:center
+}
+.contactform{
+    max-width:600px;
+    margin:auto;
+    padding:10px;
+    background-color:#0A0A0A;
+    border-radius:5px;
+    float: center;
+}
+.button{
+    background-color:#5b21b6;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    width: 256px;
+    height: 100px;
+}
