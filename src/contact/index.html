@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Stratosphere</title>
-      <link rel="stylesheet" href="./style.css">
-      <link rel="icon" type="image/x-icon" href="/logo.png">
-      <link rel="script" href="./script.ts">
-      <style>
-         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-      </style>
-   </head>
-   <body>
-      
-    <!------- Navigation Bar ------->
-      <div class="topnav">
-         <a href="/index.html">Home</a>
-         <a href="/about.html">About</a>
-         <a href="#download">Download (Not Active)</a>
-         <a href="#contact">Contact</a>
-         <a href="https://github.com/stratosphere-ve"><img src="/public/logo.png" alt="Stratosphere Logo" height="40" ></a>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Stratosphere</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon" type="image/x-icon" href="/logo.png">
+   <link rel="script" href="./script.ts">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   </style>
+</head>
+
+<body>
+
+   <!------- Navigation Bar ------->
+   <div class="topnav">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="#download">Download (Not Active)</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/stratosphere-ve">
+         <img src="/public/logo.png" alt="Stratosphere Logo" height="40">
+      </a>
+   </div>
+   <!------- End Navigation Bar ------->
+
+   <!------- Main Content ------->
+ <div class="main">
+      <div class="howtocontact">
+         <p>
+            How to contact us: You can contact us thru our email field which is on the right.
+            The fastest way to contact us is via our
+            <a href="https://discord.gg/g7KRqNErGK">Discord</a>.
+            If you have found a bug instead of emailing us, please make an Issue on our
+            <a href="https://github.com/stratosphere-ve">Github</a>
+         </p>
+         <div class="contactform"></div>
       </div>
-      <!------- End Navigation Bar ------->
-      
-      <!------- Main Content ------->
-      <div class="contactform">
-         <h1>Contact Us</h1>
-         <form action="mailto:stratosphere.ve@gmail.com" method="post" enctype="text/plain">
-          <h4>Email*</h4>
-          <input type="email" name="email" required>
-          <h4>Name</h4>
-          <input type="name" name="name">
-          <h4>Subject*</h4>
-          <input type="text" name="subject" required>
-          <h4>Content*</h4>
-          <input type="text" name="content" required style="height:200px; width:400px;">
-          <br>
-          <button type="submit" value="send">
-         </form>
-         <!------ End Main Content ------->
-      </div>
-   </body>
+  
+ <div>
+   <h1>Contact Us</h1>
+   <form action="mailto:stratosphere.ve@gmail.com" method="post" enctype="text/plain">
+      <h4>Email*</h4>
+      <input type="email" name="email" required>
+
+      <h4>Name</h4>
+      <input type="name" name="name">
+
+      <h4>Subject*</h4>
+      <input type="text" name="subject" required>
+
+      <h4>Content*</h4>
+      <input type="text" name="content" required style="height:200px; width:400px;">
+
+      <br>
+      <button type="submit" value="send">Send</button>
+   </form>
+   </div>
+    </div>
+    
+   <!------ End Main Content ------->
+
+</body>
 </html>
